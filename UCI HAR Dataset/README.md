@@ -1,4 +1,4 @@
-This code performs analysis on UCE HAR datasets.  
+This code performs analysis on UCI HAR datasets.  
 It combines the training and test observation results into a single dataset, and flattens the table to include the subjects and activity labels (i.e.: WALKING, STANDING, etc…).  
 Then it summarizes the entire dataset by Subject and Activity, computing the mean of each observation variable.
 
