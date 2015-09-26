@@ -1,7 +1,7 @@
 #Load the raw data
 testraw<-read.table("./test/X_test.txt")
 trainraw<-read.table("./train/X_train.txt")
-datas<-rbind(trainraw,testraw)
+datas<-rbind(testraw,trainraw)
 
 #Load the Subject data and combine into a single dataset
 testSubjects<-read.table("./test/subject_test.txt")
